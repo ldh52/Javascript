@@ -5,6 +5,17 @@ console.log('0' && NaN);  // NaN
 console.log({} || 123);  // {}
 
 
+console.log('String' && 123);  // 123
+console.log({} || []);  // {}
+console.log(0 && false);  // 0
+console.log(null || undefined);  // undefined
+console.log(NaN && 'Codeit');  // NaN
+console.log('' || true);  // true
+console.log('JavaScript' && null);  // null
+console.log(3000 || undefined);  // 3000
+
+
+
 // 파라미터에 따라 반환되는 값이 달라지는 
 function print(value) {
   const message = value || 'Codeit';
