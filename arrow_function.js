@@ -51,4 +51,4 @@ const arrowFunc = () => {
   console.log(arguments);
 };
 normalFunc(1, 2, 3);
-arrowFunc(1, 2, 3);
+arrowFunc(1, 2, 3);  // ReferenceEror
