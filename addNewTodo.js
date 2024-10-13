@@ -12,6 +12,7 @@ addNewTodo('고양이 화장실 청소하기');
 addNewTodo('고양이 장난감 쇼핑하기');
 
 
+
 /*
 <!DOCTYPE html>
 <html lang="ko">
