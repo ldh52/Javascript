@@ -37,13 +37,13 @@ function printMenu(menu) {
 
 
 // 테스트 코드
-console.log(title);
-console.log(artist);
-console.log(year);
-console.log(medium);
-console.log(songName);
-console.log(singer);
-console.log(rest);
-printMenu(menu1);
-printMenu(menu2);
-printMenu(menu3);
+console.log(title);    // 별이 빛나는 밤에
+console.log(artist);    // 빈센트 반 고흐
+console.log(year);    // 1889
+console.log(medium);    // 유화
+console.log(songName);    // 무릎
+console.log(singer);    // 아이유(IU)
+console.log(rest);    // { release: '2015.10.23.', lyrics: '모두 잠드는 밤에...' }
+printMenu(menu1);    // 주문하신 메뉴는 '아이스 아메리카노'입니다.
+printMenu(menu2);    // 주문하신 메뉴는 '아이스 바닐라 라떼'입니다.
+printMenu(menu3);    // 주문하신 메뉴는 '따뜻한 카페 모카'입니다.
