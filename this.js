@@ -30,6 +30,7 @@ console.log(user.getFullName);
 
 function getFullName() {
     return `${this.firstName} ${this.lastName}`;
+};
 
 // function getFullName() {
 //   return `${user.firstName} ${user.lastName}`;
