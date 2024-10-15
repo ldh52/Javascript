@@ -28,8 +28,14 @@ function printQuiz({ question, example }) {
 }
 
 // 테스트 코드
-printQuiz(quiz1);
-printQuiz(1);
-printQuiz("");
-printQuiz({});
-printQuiz(quiz2);
+printQuiz(quiz1);  
+// 다음 중 스승의 날과 생일이 같은 인물은 누구일까요?
+// 1. 율곡 이이  2. 퇴계 이황  3. 세종대왕  4. 신사임당
+
+printQuiz(1);  // TypeError  
+printQuiz("");  // TypeError
+printQuiz({});  // TypeError
+
+printQuiz(quiz2); 
+// 다음 중 희노애락에 속하지 않는 것은 무엇일까요?
+// 1. 사랑  2. 기쁨  3. 즐거움
